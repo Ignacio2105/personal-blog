@@ -208,10 +208,6 @@ nav .profile-link a:hover{
     width: 100%;
 }
 
-.blogs-posts-container .post-container a{
-    
-}
-
 footer{
     width: 100%;
     height: 80px;
@@ -223,4 +219,59 @@ footer{
 
 footer p{
     margin-top: 30px;
+}
+
+
+/* Estilos de pestaña de blog */
+.blogpost-img-container{
+    padding: 0 50px 40px;
+}
+
+.blogpost-img-container img{
+    width: 100%;
+}
+
+.blogpost-main-container{
+    padding: 0 50px 40px;
+}
+
+.blogpost-main-container h3{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.blogpost-main-container h2{
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+.contact-main-container{
+    width: 100%;
+    min-height: 250px;
+    background-color: #e6e9ed;
+    padding-bottom: 40px;
+}
+
+.contact-main-container div{
+    display: inline-block;
+    width: 42%;
+    height: 100%;
+    text-align: center;
+}
+
+
+.contact-main-container div a{
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+
+.contact-main-container .contact-left, .contact-main-container .contact-right{
+    text-align: initial;
+    margin-top:50px ;
+}
+
+.contact-main-container img{
+    width: 10vw;
+    padding-right:20px ;
 }
